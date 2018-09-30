@@ -28,8 +28,8 @@ class SocialBot(object):
         "Authorization": ""
     }
 
-    SIGN_UP_URL = 'http://localhost:8000/sign-up/'
-    LOGIN_URL = 'http://localhost:8000/login/'
+    SIGN_UP_URL = 'http://localhost:8000/api/sign-up/'
+    LOGIN_URL = 'http://localhost:8000/api/login/'
     GET_OR_CREATE_POST_URL = 'http://localhost:8000/api/posts/'
 
     PWD_GEN_CHARS = "abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"

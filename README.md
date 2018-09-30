@@ -12,7 +12,7 @@ A simple REST API based social network in Django.
         method POST
 
     - users:
-        -/api/users/
+        /api/users/
             method GET
 
     - posts:
@@ -25,8 +25,8 @@ A simple REST API based social network in Django.
         /api/posts/{id}/unlike/
         method GET
 
-        # Third party Apps:
+# Third party Apps:
 
-        - emailhunter - verify email existence on sign-up
-        - clearbit/enrichment - get additional data on user sign-up
-        - JWT - user authentication
+    - emailhunter - verify email existence on sign-up
+    - clearbit/enrichment - get additional data on user sign-up
+    - JWT - user authentication
